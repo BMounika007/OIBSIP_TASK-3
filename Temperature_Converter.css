@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'WorkSans-Bold';
+    src: url('assets/fonts/Work_Sans/WorkSans-Bold.ttf');
+}
+@font-face {
+    font-family: 'WorkSans-Regular';
+    src: url('assets/fonts/Work_Sans/WorkSans-Regular.ttf');
+}
+
+body{
+    background-image: url(https://media.istockphoto.com/vectors/colorful-summer-background-vector-illustration-vector-id950452058?k=20&m=950452058&s=612x612&w=0&h=Obm-G4Rm6uCigcYuk4vRxNMSve1q5BhyuJHMkMQOy2U=);
+    background-size: cover;
+}
+.display {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 150px;
+    
+}
+.display h1{
+    font-size: 35px;
+    color: rgb(46, 123, 55);
+}
+.temp_calculator {
+    width: 480px;
+    margin: 50px auto;
+    background-color: #239a7a;
+    margin-top: 70px;
+    border-radius: 25px;
+}
+form {
+    padding: 15px;
+}
+h2.title {
+    background: #8422d4 ;
+    color: #550f2e;
+    text-align: center;
+    font-family: cursive;
+    padding: 15px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.calculator_input {
+    float: left;
+}
+label {
+    font-size: 20px;
+}
+input {
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    background: rgb(52, 72, 20);
+    padding: 8px;
+}
+.a{
+    color: #094d75;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+.bb{
+    color: #9e5308;
+    font-family: cursive;
+    font-size: 25px;
+}
+.result_area label {
+    width: 18%;
+    float: left;
+}
+.result_area input {
+    width: 82%;
+}
+.calculator_value label {
+    width: 36%;
+    float: left;
+    font-family: serif;
+}
+.calculator_value input {
+    width: 64%;
+}
+.calculator_value {
+    margin-bottom: 30px;
+}
+
+.calculator_input {
+    padding: 0px 23px;
+    margin-bottom: 30px;
+}
+
+.result_area {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+input:hover{
+    background-color: #000000;
+    color:#fff;
+}
+button#convert {
+    float: right;
+}
+button.cal-btn {
+    width: 45%;
+    padding: 12px;
+    border: none;
+    background: #b6d422;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 550;
+    cursor: pointer;
+    font-family: cursive;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: #000000;
+    color:#fff;
+}
+select {
+    padding: 5px;
+}
